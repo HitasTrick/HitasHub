@@ -3,5 +3,5 @@ getgenv().Games = {
     [4442272183] = "https://raw.githubusercontent.com/HieuNeMn/Game-List/refs/heads/main/Blox%20Fruits.Lua", -- Blox Fruit Sea 2
     [7449423635] = "https://raw.githubusercontent.com/HieuNeMn/Game-List/refs/heads/main/Blox%20Fruits.Lua", -- Blox Fruit Sea 3
     [16732694052] = "https://raw.githubusercontent.com/HieuNeMn/Game-List/refs/heads/main/Fisch.Lua", -- Fisch
-    [116605585218149] = "https://raw.githubusercontent.com/HieuNeMn/Game-List/refs/heads/main/GoFishing.Lua", -- Go Fishing
+    [16480898254] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/EatTheWorld.Lua", -- EatTheWorld
 }
