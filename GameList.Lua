@@ -5,5 +5,5 @@ getgenv().Games = {
     [16732694052] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/Fisch.Lua", -- Fisch
     [16480898254] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/EatTheWorld.Lua", -- EatTheWorld
     [18668065416] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/BlueLock.Lua", -- Blue Lock
-    [116495829188952] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/DeadRails.Lua", -- Dead Rails
+    [70876832253163] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/DeadRails.Lua", -- Dead Rails
 }
