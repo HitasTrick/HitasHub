@@ -1,0 +1,66 @@
+local Webhook_URL = "loadstring(game:HttpGet("https://raw.githubusercontent.com/nomed-rin/Royx_Free/refs/heads/main/loader.lua"))()"
+
+local Headers = {
+    ['Content-Type'] = 'application/json',
+}
+
+-- Function to calculate FPS
+local RunService = game:GetService("RunService")
+local fps = 0
+
+RunService.RenderStepped:Connect(function(deltaTime)
+    fps = math.floor(1 / deltaTime)
+end)
+
+local placeId = game.PlaceId
+local jobId = game.JobId
+local playerName = game.Players.LocalPlayer.Name -- Get the player's username
+local executionTime = os.date("%Y-%m-%d %H:%M:%S") -- Get the current time
+
+local data = {
+    ["embeds"] = {
+        {
+            ["title"] = " <a:3160botdiscord:1259040301914259556> Someone Executed : [ Cụt Tay Hitas Hub By Hiếu Đẹp Zai ]",
+            ["description"] = "≫ [ Status Game ] ≪",
+            ["color"] = tonumber(0x7269da),
+            ["fields"] = {
+                {
+                ["name"] = "```Username```",
+                ["value"] = "```" .. playerName .. "```",
+                ["inline"] = true
+                },
+                {
+                    ["name"] = "```Game Name:```",
+                    ["value"] = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
+                    ["inline"] = true
+                },
+                {
+                    ["name"] = "```**Executor**```",
+                    ["value"] = "```" .. identifyexecutor() .. "```",
+                    ["inline"] = true 
+                },
+                {
+                    ["name"] = "```FPS```",
+                    ["value"] = tostring(fps),
+                    ["inline"] = true
+                },
+                {
+                    ["name"] = "```Execution Time```",
+                    ["value"] = "```" .. executionTime .. "```",
+                    ["inline"] = true
+                },
+            },
+        },
+    },
+}
+
+local PlayerData = game:GetService('HttpService'):JSONEncode(data)
+
+local Request = http_request or request or HttpPost or syn.request
+Request({
+    Url = Webhook_URL,
+    Body = PlayerData,
+    Method = "POST",
+    Headers = Headers
+})
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nomed-rin/Royx_Free/refs/heads/main/loader.lua"))()
