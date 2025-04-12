@@ -1,8 +1,5 @@
 getgenv().Games = {
     [116495829188952] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/Noti.Lua", -- Dead Rails
-    [2753915549] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/BloxFruits.Lua", -- Blox Fruit Sea 1
-    [4442272183] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/BloxFruits.Lua", -- Blox Fruit Sea 2
-    [7449423635] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/BloxFruits.Lua", -- Blox Fruit Sea 3
     [2753915549] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/Jod", -- Blox Fruit Sea 1
     [4442272183] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/Jod", -- Blox Fruit Sea 2
     [7449423635] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/Jod", -- Blox Fruit Sea 3
