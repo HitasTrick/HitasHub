@@ -10,4 +10,5 @@ getgenv().Games = {
     [116614712661486] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/AntiAfk.Lua", -- Dead Rails Afk
     [87039211657390] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/AriseCrossover.Lua", -- AriseCrossover
     [128336380114944] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/AriseCrossover.Lua", -- AriseCrossover
+    [72829404259339] = "https://raw.githubusercontent.com/HitasTrick/Script/refs/heads/main/AnimeRangersX.Lua", -- AnimeRangersX
 }
